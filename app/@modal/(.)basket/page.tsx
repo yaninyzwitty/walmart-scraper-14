@@ -5,11 +5,10 @@ import {
   DialogContent,
   DialogDescription,
   DialogHeader,
-  DialogTitle,
-  DialogTrigger,
+  DialogTitle
 } from "@/components/ui/dialog";
 
-import {useRouter} from "next/navigation";
+import { useRouter } from "next/navigation";
 
 function BasketInterception() {
   const router = useRouter();
